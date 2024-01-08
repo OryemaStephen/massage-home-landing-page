@@ -1,0 +1,94 @@
+body{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 14px;
+    background-color: rgb(241, 241, 239);
+    color: grey;
+    font-family: poppins sans-serif;
+}
+
+.container{
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto; 
+}
+
+.background{
+    width: 50%;
+    height: 525px;
+    background: linear-gradient(to right, rgb(187, 202, 192), white);
+    z-index: -999;
+    position: absolute;
+    top:20px;
+    left:50%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.massage-brief{
+    width: 240px;
+}
+
+.massage-brief p{
+    margin:20px auto;
+}
+
+
+button {
+    width: 120px;
+    padding: 10px 20px;
+    background-color: rgb(18, 55, 18);
+    color: white;
+    font-size: 0.6em;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+  
+.arrow {
+    width: 60px;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+
+p{
+    text-align: left;
+    line-height: 20px;
+}
+
+.massage-pic{
+    width:280px;
+    border-radius: 10px;
+    margin: 0 30px;
+}
+
+.massage-section{
+    width:240px;
+}
+
+.massage-services {
+    border-top: 0.3px solid grey;
+    padding: 10px 0;
+  }
+
+.massage-services span::before {
+    content: attr(data-number);
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 0.8em;
+  }
+
+h1, h5, span{
+    color:rgb(102, 154, 102);
+    margin: 5px auto;
+}
+
+h5{
+font-size: 18px;
+}
